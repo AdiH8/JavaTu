@@ -17,4 +17,9 @@ public class Student extends Person{
     public void introduce() {
         System.out.println("My name is " + getName() + ", I am " + getAge() + " years old and my grade is " + grade + " .");
     }
+
+    @Override
+    public void PrintDetails(){
+        introduce();
+    }
 }

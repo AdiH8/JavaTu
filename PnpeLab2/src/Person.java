@@ -1,4 +1,4 @@
-public class Person {
+public class Person implements Printable {
     private String name;
     private int age;
 
@@ -25,4 +25,10 @@ public class Person {
     public void introduce() {
         System.out.println("My name is " + name + " and I am " + age + " years old.");
     }
+
+    @Override
+    public void PrintDetails() {
+        introduce();
+    }
 }
+
