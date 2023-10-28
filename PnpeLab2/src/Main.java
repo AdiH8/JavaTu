@@ -1,6 +1,6 @@
 import People.*;
 import Shapes.*;
-
+import Cars.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +19,18 @@ public class Main {
 
         System.out.println("Area of rectangle: " + rectangle.area());
         System.out.println("Perimeter of rectangle: " + rectangle.perimeter());
+
+        Car myCar = new Car("BMW", 60, 500, 10000);
+
+        myCar.accelerate();
+        myCar.refuel(200);
+        myCar.drive(100,7.8);
+
+        System.out.println("Brand: " + myCar.getBrand());
+        System.out.println("Speed: " + myCar.getSpeed());
+        System.out.println("Fuel: " + myCar.getFuel());
+        System.out.println("Mileage: " + myCar.getMileage());
+
     }
 
 
