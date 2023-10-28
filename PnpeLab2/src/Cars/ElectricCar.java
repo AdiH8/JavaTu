@@ -15,6 +15,7 @@ public class ElectricCar extends Car{
     }
 
     public void driveElectric(int distance) {
+       setMileage(getMileage()+distance);
        batteryLevel-=efficiency * ((double)distance/100);
 
     }
@@ -25,4 +26,6 @@ public class ElectricCar extends Car{
     public double getEfficiency() {
         return efficiency;
     }
+
+
 }

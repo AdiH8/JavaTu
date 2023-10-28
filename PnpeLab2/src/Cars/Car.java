@@ -37,6 +37,22 @@ public class Car {
         return fuel;
     }
 
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public void setFuel(double fuel) {
+        this.fuel = fuel;
+    }
+
+    public void setMileage(int mileage) {
+        this.mileage = mileage;
+    }
+
     public int getMileage() {
         return mileage;
     }
