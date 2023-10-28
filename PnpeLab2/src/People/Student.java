@@ -1,3 +1,5 @@
+package People;
+
 public class Student extends Person{
     private double grade;
 
