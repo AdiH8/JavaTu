@@ -4,7 +4,9 @@ public class Main {
         Person person1 = new Person("John", 25);
         person1.introduce();
 
-        Person person2 = new Person("Jane", 30);
-        person2.introduce();
+        Student student1 = new Student("Jane", 30, 5.20);
+        student1.introduce();
     }
+
+
 }
