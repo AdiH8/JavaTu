@@ -10,6 +10,11 @@ public class Planet extends OrbitableSpaceObject implements Orbiter {
 
     List<BaseBuilding> buildings = new ArrayList<>();
 
+
+    public void addBuilding(BaseBuilding building){
+        buildings.add(building);
+    }
+
     public Planet(String name, double coordinateX, double coordinateY, double coordinateZ, double mass) {
         super(name, coordinateX, coordinateY, coordinateZ, mass);
         this.orbiters=new ArrayList<>();

@@ -18,7 +18,13 @@ public class BaseBuilding {
     }
 
     public void construct(Planet target){
-        
-
+        target.buildings.add(this);
     }
+
+    public void upgrade(){
+        level+=1;
+    }
+
+    //public void applyEffect
+
 }
